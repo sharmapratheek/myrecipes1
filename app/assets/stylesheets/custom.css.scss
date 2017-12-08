@@ -1,0 +1,48 @@
+$navbar-default-bg: #073B15;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo{
+	float:left;
+	text-transform:uppercase;
+	color:#fff;
+	letter-spacing:-1px;
+	font-weight: bold;
+	font-size: 1.7em
+}
+
+#logo:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+.jumbotron{
+	background-image:asset-url("sora-sagano-103742.jpg");
+	background-size:cover;
+	height:300px;
+}
+
+.jumbotron h1{
+	color:#fff;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:-1px;
+
+}
+.jumbotron h2{
+	color:#fff;
+	text-align:center;
+	font-weight:bold;
+	letter-spaceing:-1px;
+}
+
+.btn-xlarge{
+	background-color:#073B15;
+}
+
+.btn-xlarge:hover{
+	color:#fff;
+	text-decoration:none;
+}
